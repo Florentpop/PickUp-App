@@ -1,19 +1,18 @@
 import React from "react";
+import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View, Button } from "react-native";
 
-const HomeScreen = ({ navigation }) => {
+const ExploreScreen = ({ navigation }) => {
   return (
     <View style={styles.container}>
       <Text>HomeScreen</Text>
-      <Button
-        title="Go to details screen"
-        onPress={() => navigation.navigate("Details")}
-      />
+      <StatusBar style="auto" />
+      <Button title="Click Here" onPress={() => alert("Button Clicked!")} />
     </View>
   );
 };
 
-export default HomeScreen;
+export default ExploreScreen;
 
 const styles = StyleSheet.create({
   container: {
