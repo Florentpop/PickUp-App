@@ -5,7 +5,7 @@ import { StyleSheet, Text, View, Button } from "react-native";
 const ExploreScreen = ({ navigation }) => {
   return (
     <View style={styles.container}>
-      <Text>HomeScreen</Text>
+      <Text>Explore Screen</Text>
       <StatusBar style="auto" />
       <Button title="Click Here" onPress={() => alert("Button Clicked!")} />
     </View>

@@ -2,17 +2,17 @@ import React from "react";
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View, Button } from "react-native";
 
-const ProfileScreen = ({ navigation }) => {
+const SettingScreen = () => {
   return (
     <View style={styles.container}>
-      <Text>Profile Screen</Text>
+      <Text>Setting Screen</Text>
       <StatusBar style="auto" />
       <Button title="Click Here" onPress={() => alert("Button Clicked!")} />
     </View>
   );
 };
 
-export default ProfileScreen;
+export default SettingScreen;
 
 const styles = StyleSheet.create({
   container: {
