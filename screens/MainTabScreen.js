@@ -82,6 +82,7 @@ const HomeStackScreen = ({ navigation }) => (
       name="Home"
       component={HomeScreen}
       options={{
+        title: "PickUp",
         headerLeft: () => (
           <Icon.Button
             name="ios-menu"
